@@ -1,4 +1,4 @@
-![Profile_HD](https://github.com/user-attachments/assets/d8db500d-e059-4dce-a7de-49ab18fdfc2d)
+![Profile_HD_0 6x](https://github.com/user-attachments/assets/31d60b72-7a7b-4838-92f9-425744b171a4)
 
 ## A little bit about me
 
