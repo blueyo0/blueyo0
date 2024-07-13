@@ -1,4 +1,4 @@
-![Profile](assets/profile_HD.gif)
+![Profile_HD](https://github.com/user-attachments/assets/d8db500d-e059-4dce-a7de-49ab18fdfc2d)
 
 ## A little bit about me
 
