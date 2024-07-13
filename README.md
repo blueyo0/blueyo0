@@ -1,16 +1,18 @@
-## Hi there 👋
+![Profile](assets/profile_HD.gif)
 
-<!--
-**blueyo0/blueyo0** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+## A little bit about me
 
-Here are some ideas to get you started:
+🖥️ &nbsp; Currently working on DL Compiler. Previously a Medical Foundation Model Reseacher (see [SAM-Med3D](https://github.com/uni-medical/SAM-Med3D.git)).\
+🧠 &nbsp; I'm actively learning about ML Systems 🔧, Agentic Application 🤖, AI-Powered Healthcare 🩺, and Software Architecture 🏗️.\
+🎮 &nbsp; In my free time, I enjoy gaming, taking leisurely walks, and spending quality time with family.
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+## Game achievements unlocked
+
+<div style="display: flex; justify-content: flex-start; gap: 5px;">
+  <img src="assets/BearAndWolf.jpg"  width="50" alt="Game Achievement">
+  <img src="assets/FatherAndSon.jpg" width="50" alt="Game Achievement">
+  <img src="assets/MHR.png"          width="50" alt="Game Achievement">
+  <img src="assets/MHW.png"          width="50" alt="Game Achievement">
+  <img src="assets/DarkSouls.png"    width="50" alt="Game Achievement">
+  <img src="assets/DanganronpaV3.png"    width="50" alt="Game Achievement">
+</div>
