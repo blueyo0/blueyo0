@@ -23,6 +23,6 @@
   <img src="assets/MHR.png"          width="50" alt="Game Achievement">
   <img src="assets/MHW.png"          width="50" alt="Game Achievement">
   <img src="assets/DarkSouls.png"    width="50" alt="Game Achievement">
-  <img src="assets/ElderRing.png"    width="50" alt="Game Achievement">
+  <img src="assets/ElderRing_HD.png"    width="50" alt="Game Achievement">
   <img src="assets/DanganronpaV3.png"    width="50" alt="Game Achievement">
 </div>
