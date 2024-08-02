@@ -2,9 +2,18 @@
 
 ## A little bit about me
 
-🖥️ &nbsp; Currently working on AI Compiler. Previously a Medical Foundation Model Reseacher (see [SAM-Med3D](https://github.com/uni-medical/SAM-Med3D.git)).\
+🖥️ &nbsp; Currently working on AI Compiler. Previously a Medical Foundation Model Researcher (see [SAM-Med3D](https://github.com/uni-medical/SAM-Med3D.git)).\
 🧠 &nbsp; I'm actively learning about ML Systems 🔧, Agentic Application 🤖, AI-Powered Healthcare 🩺, and Software Architecture 🏗️.\
 🎮 &nbsp; In my free time, I enjoy gaming, taking leisurely walks, and spending quality time with family.
+
+## There's my works
+
+[![x](https://img.shields.io/badge/Prompable_Seg-SAM--Med3D-93C5FD)](https://github.com/uni-medical/SAM-Med3D)
+[![x](https://img.shields.io/badge/Scalable_Seg-STU--Net-6EE7B7)](https://github.com/uni-medical/STU-Net)
+
+[![x](https://img.shields.io/badge/Safe_Agent-PPilot-C4B5FD)](https://github.com/riven2333/PrivacyPilot)
+[![x](https://img.shields.io/badge/Useful_Medical_AI_Collection-MedIM-FDBA74)](https://github.com/uni-medical/pytorch-medical-image-models)
+
 
 ## Game achievements unlocked
 
