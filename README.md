@@ -7,12 +7,11 @@
 🎮 &nbsp; In my free time, I enjoy gaming, taking leisurely walks, and spending quality time with family.
 
 ## There's my works
+[![x](https://img.shields.io/badge/Prompable_Seg-SAM--Med3D-93C5FD?style=for-the-badge)](https://github.com/uni-medical/SAM-Med3D)
+[![x](https://img.shields.io/badge/Scalable_Seg-STU--Net-6EE7B7?style=for-the-badge)](https://github.com/uni-medical/STU-Net)
 
-[![x](https://img.shields.io/badge/Prompable_Seg-SAM--Med3D-93C5FD)](https://github.com/uni-medical/SAM-Med3D)
-[![x](https://img.shields.io/badge/Scalable_Seg-STU--Net-6EE7B7)](https://github.com/uni-medical/STU-Net)
-
-[![x](https://img.shields.io/badge/Safe_LLM_Agent-PPilot-C4B5FD)](https://github.com/riven2333/PrivacyPilot)
-[![x](https://img.shields.io/badge/Medical_AI_Toolkit-MedIM-FDBA74)](https://github.com/uni-medical/pytorch-medical-image-models)
+[![x](https://img.shields.io/badge/Safe_LLM_Agent-PPilot-C4B5FD?style=for-the-badge)](https://github.com/riven2333/PrivacyPilot)
+[![x](https://img.shields.io/badge/Medical_AI_Toolkit-MedIM-FDBA74?style=for-the-badge)](https://github.com/uni-medical/pytorch-medical-image-models)
 
 
 ## Game achievements unlocked
