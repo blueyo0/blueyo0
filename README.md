@@ -13,6 +13,7 @@
 [![x](https://img.shields.io/badge/Safe_LLM_Agent-PPilot-C4B5FD?style=for-the-badge)](https://github.com/riven2333/PrivacyPilot)
 [![x](https://img.shields.io/badge/Medical_AI_Toolkit-MedIM-FDBA74?style=for-the-badge)](https://github.com/uni-medical/pytorch-medical-image-models)
 
+I am also a contributor of [vllm](https://github.com/vllm-project/vllm) and [mmsegmentation](https://github.com/open-mmlab/mmsegmentation).
 
 ## Game achievements unlocked
 
