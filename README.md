@@ -20,7 +20,8 @@
 ### Open-Source Contributions
 
 [sglang](https://github.com/sgl-project/sglang), [vllm](https://github.com/vllm-project/vllm), [mmsegmentation](https://github.com/open-mmlab/mmsegmentation).
-[HaoyuWang4188](https://github.com/HaoyuWang4188) is also my account. 
+
+> [HaoyuWang4188](https://github.com/HaoyuWang4188) is also my account. 
 ## Game achievements unlocked
 
 <div style="display: flex; justify-content: flex-start; gap: 5px;">
