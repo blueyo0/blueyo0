@@ -24,12 +24,12 @@
 ## Game achievements unlocked
 
 <div style="display: flex; justify-content: flex-start; gap: 5px;">
+  <img src="assets/BlackMyth.jpg"        width="50" alt="Game Achievement">
   <img src="assets/BearAndWolf.jpg"      width="50" alt="Game Achievement">
   <img src="assets/FatherAndSon.jpg"     width="50" alt="Game Achievement">
   <img src="assets/MHR.png"              width="50" alt="Game Achievement">
   <img src="assets/MHW.png"              width="50" alt="Game Achievement">
-  <img src="assets/DarkSouls.png"        width="50" alt="Game Achievement">
   <img src="assets/ElderRing_HD.png"     width="50" alt="Game Achievement">
-  <img src="assets/BlackMyth.jpg"        width="50" alt="Game Achievement">
+  <img src="assets/DarkSouls.png"        width="50" alt="Game Achievement">
   <img src="assets/DanganronpaV3.png"    width="50" alt="Game Achievement">
 </div>
