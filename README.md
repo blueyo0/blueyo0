@@ -14,11 +14,13 @@
 
 ### Useful tools
 
-[![x](https://img.shields.io/badge/Medical_AI_Toolkit-MedIM-FDBA74?style=for-the-badge)](https://github.com/uni-medical/pytorch-medical-image-models)
+[![x](https://img.shields.io/badge/Medical_AI_Toolkit-MedIM-7F82BB?style=for-the-badge)](https://github.com/uni-medical/pytorch-medical-image-models)
 
 ### Open-Source Contributions
 
-[sglang](https://github.com/sgl-project/sglang), [vllm](https://github.com/vllm-project/vllm), [mmsegmentation](https://github.com/open-mmlab/mmsegmentation).
+[![x](https://img.shields.io/badge/LLM_Serving-SGLang-FADDCD?style=for-the-badge)](https://github.com/sgl-project/sglang)
+[![x](https://img.shields.io/badge/LLM_Serving-vLLM-30A2FF?style=for-the-badge)](https://github.com/vllm-project/vllm)
+[![x](https://img.shields.io/badge/Seg_Toolkit-MMSeg-005B9F?style=for-the-badge)](https://github.com/open-mmlab/mmsegmentation)
 
 ## Game achievements unlocked
 
