@@ -15,7 +15,6 @@
 ### Useful tools
 
 [![x](https://img.shields.io/badge/Medical_AI_Toolkit-MedIM-FDBA74?style=for-the-badge)](https://github.com/uni-medical/pytorch-medical-image-models)
-[![x](https://img.shields.io/badge/Safe_LLM_Agent-PPilot-C4B5FD?style=for-the-badge)](https://github.com/riven2333/PrivacyPilot)
 
 ### Open-Source Contributions
 
