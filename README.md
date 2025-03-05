@@ -9,7 +9,7 @@
 ## There's my works
 ### Researches
 
-[![x](https://img.shields.io/badge/Prompable_Seg-SAM--Med3D-93C5FD?style=for-the-badge)](https://github.com/uni-medical/SAM-Med3D)
+[![x](https://img.shields.io/badge/Universal_Seg-SAM--Med3D-93C5FD?style=for-the-badge)](https://github.com/uni-medical/SAM-Med3D)
 [![x](https://img.shields.io/badge/Scalable_Seg-STU--Net-6EE7B7?style=for-the-badge)](https://github.com/uni-medical/STU-Net)
 
 ### Useful tools
