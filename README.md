@@ -16,7 +16,7 @@
 
 [![x](https://img.shields.io/badge/Medical_AI_Toolkit-MedIM-7F82BB?style=for-the-badge)](https://github.com/uni-medical/pytorch-medical-image-models)
 
-### Open-Source Contributions
+### Open-source contributions
 
 [![x](https://img.shields.io/badge/LLM_Serving-SGLang-FADDCD?style=for-the-badge)](https://github.com/sgl-project/sglang)
 [![x](https://img.shields.io/badge/LLM_Serving-vLLM-30A2FF?style=for-the-badge)](https://github.com/vllm-project/vllm)
@@ -25,6 +25,8 @@
 ## Game achievements unlocked
 
 <div style="display: flex; justify-content: flex-start; gap: 5px;">
+  <img src="assets/SilkSong.jpg"        width="50" alt="Game Achievement">
+  <img src="assets/SultanGame.jpg"        width="50" alt="Game Achievement">
   <img src="assets/BlackMyth.jpg"        width="50" alt="Game Achievement">
   <img src="assets/BearAndWolf.jpg"      width="50" alt="Game Achievement">
   <img src="assets/FatherAndSon.jpg"     width="50" alt="Game Achievement">
