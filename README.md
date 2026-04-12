@@ -15,6 +15,7 @@
 ### Useful tools
 
 [![x](https://img.shields.io/badge/Medical_AI_Toolkit-MedIM-7F82BB?style=for-the-badge)](https://github.com/uni-medical/pytorch-medical-image-models)
+[![x](https://img.shields.io/badge/Agentic_Bio_Research-CreA-B179D8?style=for-the-badge)](https://github.com/uni-medical/CREA)
 
 ### Open-source contributions
 
