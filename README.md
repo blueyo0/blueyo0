@@ -26,6 +26,7 @@
 ## Game achievements unlocked
 
 <div style="display: flex; justify-content: flex-start; gap: 5px;">
+  <img src="assets/Pokopia.png"          width="50" alt="Game Achievement">
   <img src="assets/SilkSong.jpg"        width="50" alt="Game Achievement">
   <img src="assets/SultanGame.jpg"        width="50" alt="Game Achievement">
   <img src="assets/BlackMyth.jpg"        width="50" alt="Game Achievement">
