@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="https://github.com/user-attachments/assets/31d60b72-7a7b-4838-92f9-425744b171a4" width="600" alt="blueyo0 banner">
+<img src="assets/banner.svg" width="600" alt="Haoyu Wang · Learn, build, revisit.">
 
 **Haoyu Wang** · <sub>Learn, build, revisit.</sub>
 
@@ -27,14 +27,14 @@
 
 **Tools**
 
-[![MedIM](https://img.shields.io/badge/MedIM-Medical_AI_Toolkit-456152?style=flat-square)](https://github.com/uni-medical/pytorch-medical-image-models)
-[![CreA](https://img.shields.io/badge/CreA-Agentic_Bio_Research-456152?style=flat-square)](https://github.com/uni-medical/CREA)
+[![MedIM](https://img.shields.io/badge/MedIM-Medical_AI_Toolkit-136448?style=flat-square)](https://github.com/uni-medical/pytorch-medical-image-models)
+[![CreA](https://img.shields.io/badge/CreA-Agentic_Bio_Research-136448?style=flat-square)](https://github.com/uni-medical/CREA)
 
 **Open source**
 
-[![SGLang](https://img.shields.io/badge/SGLang-LLM_Serving-456152?style=flat-square)](https://github.com/sgl-project/sglang)
-[![vLLM](https://img.shields.io/badge/vLLM-LLM_Serving-456152?style=flat-square)](https://github.com/vllm-project/vllm)
-[![MMSeg](https://img.shields.io/badge/MMSeg-Segmentation_Toolkit-456152?style=flat-square)](https://github.com/open-mmlab/mmsegmentation)
+[![SGLang](https://img.shields.io/badge/SGLang-LLM_Serving-136448?style=flat-square)](https://github.com/sgl-project/sglang)
+[![vLLM](https://img.shields.io/badge/vLLM-LLM_Serving-136448?style=flat-square)](https://github.com/vllm-project/vllm)
+[![MMSeg](https://img.shields.io/badge/MMSeg-Segmentation_Toolkit-136448?style=flat-square)](https://github.com/open-mmlab/mmsegmentation)
 
 <details>
 <summary><b>Game achievements unlocked</b></summary>
