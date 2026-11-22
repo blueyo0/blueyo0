@@ -32,8 +32,18 @@
     .glow { animation: breathe 8s ease-in-out infinite; transform-origin: 640px 90px; }
     @keyframes breathe { 50% { opacity: .55; transform: translate(-30px, 20px) scale(1.15); } }
 
-    .sip { animation: sip 6s ease-in-out infinite; }
-    @keyframes sip { 50% { transform: translateY(1px); } }
+    .sip { animation: sip 5s ease-in-out infinite; }
+    @keyframes sip { 50% { transform: translateY(1.2px); } }
+    .ice { animation: bob 4.5s ease-in-out infinite; transform-origin: 735px 225px; }
+    @keyframes bob { 50% { transform: translateY(1.5px) rotate(-5deg); } }
+    .fizz1 { animation: rise 4.8s ease-out infinite; }
+    .fizz2 { animation: rise 4.8s ease-out 2.4s infinite; }
+    @keyframes rise {
+      0% { opacity: 0; transform: translateY(4px) scale(.7); }
+      25% { opacity: .75; }
+      75%, 100% { opacity: 0; transform: translateY(-14px) scale(1.05); }
+    }
+    .negroni { cursor: pointer; }
   </style>
 
   <defs>
@@ -45,9 +55,13 @@
       <stop offset="1" stop-color="#82d9ae" stop-opacity="0"/>
     </radialGradient>
     <radialGradient id="warm">
-      <stop offset="0" stop-color="#c2503a" stop-opacity=".13"/>
-      <stop offset="1" stop-color="#c2503a" stop-opacity="0"/>
+      <stop offset="0" stop-color="#d94e34" stop-opacity=".18"/>
+      <stop offset="1" stop-color="#d94e34" stop-opacity="0"/>
     </radialGradient>
+    <linearGradient id="campari" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#e35639" stop-opacity=".92"/>
+      <stop offset="1" stop-color="#7d1f14" stop-opacity=".95"/>
+    </linearGradient>
     <linearGradient id="ink" x1="0" x2="1">
       <stop offset="0" stop-color="#82d9ae"/><stop offset="1" stop-color="#5eead4"/>
     </linearGradient>
@@ -56,7 +70,7 @@
     </pattern>
     <clipPath id="frame"><rect x="0" y="0" width="800" height="260" rx="14"/></clipPath>
     <clipPath id="typing"><rect class="type" x="74" y="70" height="40" width="640"/></clipPath>
-    <clipPath id="glass"><path d="M716 208 L756 208 L750 244 L722 244 Z"/></clipPath>
+    <clipPath id="glass"><path d="M715 204 L757 204 L752 240 L720 240 Z"/></clipPath>
   </defs>
 
   <g clip-path="url(#frame)">
@@ -85,16 +99,33 @@
     </g>
 
     <!-- Negroni, hidden in plain sight -->
-    <g>
-      <circle cx="736" cy="226" r="48" fill="url(#warm)"/>
+    <a href="https://www.dante-nyc.com/wv/#fall-into-dante-copy-1" target="_blank" class="negroni">
+      <title>Dante Negroni · Bombay Sapphire, Campari, Martini &amp; Rossi Vermouth — Dante NYC Menu</title>
+      <circle cx="736" cy="224" r="52" fill="url(#warm)"/>
+      <!-- king ice cube top breaking above surface -->
       <g clip-path="url(#glass)">
-        <rect class="sip" x="712" y="226" width="48" height="22" fill="#c2503a" fill-opacity=".85"/>
-        <rect x="712" y="226" width="48" height="1.5" fill="#e07a5f" fill-opacity=".9"/>
-        <rect x="729" y="229" width="15" height="15" rx="2.5" fill="#ffffff" fill-opacity=".05" stroke="#b9d6c7" stroke-opacity=".55" stroke-width="1" transform="rotate(-8 736 236)"/>
+        <g class="ice">
+          <rect x="724" y="214" width="21" height="21" rx="3" fill="#e8f3e9" fill-opacity=".10" stroke="#a8cbb9" stroke-opacity=".65" stroke-width="1.2" transform="rotate(-11 735 225)"/>
+          <path d="M727 218 L739 216" stroke="#ffffff" stroke-opacity=".35" stroke-width="1" stroke-linecap="round"/>
+        </g>
+        <g class="sip">
+          <rect x="712" y="220" width="48" height="22" fill="url(#campari)"/>
+          <path d="M715 220 Q736 221.5 757 220" fill="none" stroke="#ff9b80" stroke-opacity=".85" stroke-width="1.4"/>
+        </g>
       </g>
-      <path d="M716 208 L756 208 L750 244 L722 244 Z" fill="none" stroke="#7a9c8a" stroke-width="1.6" stroke-linejoin="round"/>
-      <path d="M737 207 C 742 200, 750 200, 755 206" fill="none" stroke="#e0894a" stroke-width="2" stroke-linecap="round"/>
-    </g>
+      <!-- heavy crystal sham (rocks glass base) -->
+      <path d="M720 240 L752 240 L751 245 L721 245 Z" fill="#82d9ae" fill-opacity=".14"/>
+      <line x1="723" y1="242.5" x2="749" y2="242.5" stroke="#b9d6c7" stroke-opacity=".45" stroke-width="1" stroke-linecap="round"/>
+      <!-- rocks glass body -->
+      <path d="M715 204 L757 204 L751 245 L721 245 Z" fill="none" stroke="#85a895" stroke-width="1.6" stroke-linejoin="round"/>
+      <line x1="718" y1="208" x2="722" y2="237" stroke="#ffffff" stroke-opacity=".22" stroke-width="1" stroke-linecap="round"/>
+      <!-- sculpted orange peel twist on rim -->
+      <path d="M744 212 C 746 201, 755 198, 761 205 C 763 208, 759 212, 755 210" fill="none" stroke="#f59e0b" stroke-width="2.2" stroke-linecap="round"/>
+      <path d="M746 210 C 748 202, 755 200, 760 205" fill="none" stroke="#fde68a" stroke-opacity=".65" stroke-width=".9" stroke-linecap="round"/>
+      <!-- subtle rising citrus/aroma glints -->
+      <circle class="fizz1" cx="732" cy="202" r="1.3" fill="#f59e0b"/>
+      <text class="fizz2" x="742" y="199" font-size="8" fill="#82d9ae">✦</text>
+    </a>
   </g>
   <rect x=".75" y=".75" width="798.5" height="258.5" rx="14" fill="none" stroke="#1f2e26" stroke-width="1.5"/>
 </svg>
