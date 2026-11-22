@@ -1,64 +1,71 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 200" width="800" height="200" role="img" aria-label="Haoyu Wang · Learn, build, revisit.">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 240" width="800" height="240" role="img" aria-label="blueyo0 · I am an AI software engineer. I like creating tools for social good, agentic systems, AI-powered healthcare, etc. Tech Otakus make the world better ;)">
   <!--
-    Edit the text below freely:
-      #title    -> main line
-      #subtitle -> second line
-      #tags     -> small line at the bottom
+    Edit freely:
+      #title           -> big name
+      .s1 / .s2 / .s3  -> slogan lines (they cycle in turn)
+      #punch           -> highlighted motto
+      #cta             -> bottom line
   -->
   <style>
     :root { --paper:#f7f7ef; --ink:#17251e; --muted:#486054; --line:#becbbf; --green:#136448; }
     @media (prefers-color-scheme: dark) {
       :root { --paper:#131d18; --ink:#e8f3e9; --muted:#abc1b3; --line:#456152; --green:#82d9ae; }
     }
-    .bg    { fill: var(--paper); stroke: var(--line); stroke-width: 1.5; }
-    .ink   { fill: var(--ink); }
-    .muted { fill: var(--muted); }
-    .green { fill: var(--green); }
-    .ring  { fill: none; stroke: var(--green); stroke-width: 3; stroke-linecap: round; }
-    .ring2 { fill: none; stroke: var(--line); stroke-width: 3; }
-    text   { font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; }
-    #title    { font-size: 40px; font-weight: 700; }
-    #subtitle { font-size: 20px; }
-    #tags     { font-size: 14px; letter-spacing: 2px; }
+    .bg { fill: var(--paper); stroke: var(--line); stroke-width: 1.5; }
+    text { font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; }
+    #title { font-size: 44px; font-weight: 700; fill: var(--ink); }
+    .s { font-size: 19px; fill: var(--muted); opacity: 0; }
+    #punch { font-size: 24px; font-weight: 700; fill: var(--green); }
+    #cta { font-size: 15px; fill: var(--muted); letter-spacing: 1px; }
 
-    /* typing reveal */
-    .type { animation: type 2.4s steps(22, end) 0.3s both; }
-    @keyframes type { from { width: 0; } to { width: 520px; } }
-    .cursor { animation: blink 1s step-end infinite; }
+    /* name types in, cursor blinks */
+    .type { animation: type 1.6s steps(7, end) 0.2s both; }
+    @keyframes type { from { width: 0; } to { width: 240px; } }
+    .cursor { fill: var(--green); animation: blink 1s step-end infinite; }
     @keyframes blink { 50% { opacity: 0; } }
 
-    /* fade-in for the lines below */
-    .fade1 { animation: fade 0.8s ease-out 2.6s both; }
-    .fade2 { animation: fade 0.8s ease-out 3.0s both; }
-    @keyframes fade { from { opacity: 0; transform: translateY(6px); } to { opacity: 1; transform: none; } }
+    /* slogan lines rotate: 12s loop, 4s each */
+    .s1 { animation: cycle 12s ease-in-out 1.8s infinite; }
+    .s2 { animation: cycle 12s ease-in-out 5.8s infinite; }
+    .s3 { animation: cycle 12s ease-in-out 9.8s infinite; }
+    @keyframes cycle {
+      0%   { opacity: 0; transform: translateY(8px); }
+      5%   { opacity: 1; transform: none; }
+      30%  { opacity: 1; transform: none; }
+      35%  { opacity: 0; transform: translateY(-8px); }
+      100% { opacity: 0; }
+    }
 
-    /* rolling buffer ring */
-    .spin { transform-origin: 690px 100px; animation: spin 6s linear infinite; }
+    .fade { animation: fade 0.8s ease-out 1.8s both; }
+    @keyframes fade { from { opacity: 0; } to { opacity: 1; } }
+    .bob { animation: bob 1.4s ease-in-out infinite; }
+    @keyframes bob { 50% { transform: translateY(4px); } }
+
+    .spin { transform-origin: 700px 92px; animation: spin 6s linear infinite; }
     @keyframes spin { to { transform: rotate(360deg); } }
+    .ring  { fill: none; stroke: var(--green); stroke-width: 3; stroke-linecap: round; }
+    .ring2 { fill: none; stroke: var(--line); stroke-width: 3; }
   </style>
 
   <defs>
-    <clipPath id="typing"><rect class="type" x="60" y="40" height="60" width="520"/></clipPath>
+    <clipPath id="typing"><rect class="type" x="50" y="30" height="60" width="240"/></clipPath>
   </defs>
 
-  <rect class="bg" x="1" y="1" width="798" height="198" rx="14"/>
+  <rect class="bg" x="1" y="1" width="798" height="238" rx="14"/>
 
-  <g clip-path="url(#typing)">
-    <text id="title" class="ink" x="60" y="88">Haoyu Wang</text>
-  </g>
-  <rect class="green cursor" x="300" y="58" width="14" height="36"/>
+  <g clip-path="url(#typing)"><text id="title" x="50" y="78">blueyo0</text></g>
+  <rect class="cursor" x="242" y="46" width="14" height="38"/>
 
-  <g class="fade1">
-    <text id="subtitle" class="muted" x="60" y="124">Learn, build, revisit.</text>
-  </g>
-  <g class="fade2">
-    <text id="tags" class="green" x="60" y="160">AI COMPILER · AGENTIC SYSTEM · MEDICAL AI</text>
+  <text class="s s1" x="50" y="122">I am an AI software engineer.</text>
+  <text class="s s2" x="50" y="122">I like creating tools for social good,</text>
+  <text class="s s3" x="50" y="122">agentic systems, AI-powered healthcare, etc.</text>
+
+  <g class="fade">
+    <text id="punch" x="50" y="166">Tech Otakus make the world better ;)</text>
+    <text id="cta" x="50" y="208">Check out my work <tspan class="bob">↓</tspan></text>
   </g>
 
-  <!-- buffer ring -->
-  <circle class="ring2" cx="690" cy="100" r="46"/>
-  <g class="spin">
-    <circle class="ring" cx="690" cy="100" r="46" stroke-dasharray="72 217"/>
-  </g>
-  <text class="green" x="690" y="107" text-anchor="middle" font-size="22">↻</text>
+  <circle class="ring2" cx="700" cy="92" r="44"/>
+  <g class="spin"><circle class="ring" cx="700" cy="92" r="44" stroke-dasharray="70 207"/></g>
+  <text x="700" y="100" text-anchor="middle" font-size="22" style="fill:var(--green)">↻</text>
 </svg>

@@ -1,8 +1,8 @@
 <div align="center">
 
-<img src="assets/banner.svg" width="600" alt="Haoyu Wang · Learn, build, revisit.">
+<img src="assets/banner.svg" width="600" alt="blueyo0 · Tech Otakus make the world better ;)">
 
-**Haoyu Wang** · <sub>Learn, build, revisit.</sub>
+**blueyo0** · <sub>Learn, build, revisit.</sub>
 
 <a href="https://blueyo0.github.io/rolling-buffer/">Rolling Buffer</a> ·
 <a href="https://scholar.google.com/citations?user=mBXk8mYAAAAJ">Scholar</a> ·
