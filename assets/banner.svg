@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 240" width="800" height="240" role="img" aria-label="blueyo0 · I am an AI software engineer. I like creating tools for social good, agentic systems, AI-powered healthcare, etc. Tech Otakus make the world better ;)">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 240" width="800" height="240" role="img" aria-label="There's blueyo0, nice to meet u~ · I am an AI software engineer. I like creating tools for social good, agentic systems, AI-powered healthcare, etc. Tech Otakus make the world better ;)">
   <!--
     Edit freely:
       #title           -> big name
@@ -13,21 +13,21 @@
     }
     .bg { fill: var(--paper); stroke: var(--line); stroke-width: 1.5; }
     text { font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; }
-    #title { font-size: 44px; font-weight: 700; fill: var(--ink); }
+    #title { font-size: 30px; font-weight: 700; fill: var(--ink); }
     .s { font-size: 19px; fill: var(--muted); opacity: 0; }
     #punch { font-size: 24px; font-weight: 700; fill: var(--green); }
     #cta { font-size: 15px; fill: var(--muted); letter-spacing: 1px; }
 
     /* name types in, cursor blinks */
-    .type { animation: type 1.6s steps(7, end) 0.2s both; }
-    @keyframes type { from { width: 0; } to { width: 240px; } }
+    .type { animation: type 3s steps(31, end) 0.2s both; }
+    @keyframes type { from { width: 0; } to { width: 570px; } }
     .cursor { fill: var(--green); animation: blink 1s step-end infinite; }
     @keyframes blink { 50% { opacity: 0; } }
 
     /* slogan lines rotate: 12s loop, 4s each */
-    .s1 { animation: cycle 12s ease-in-out 1.8s infinite; }
-    .s2 { animation: cycle 12s ease-in-out 5.8s infinite; }
-    .s3 { animation: cycle 12s ease-in-out 9.8s infinite; }
+    .s1 { animation: cycle 12s ease-in-out 3.2s infinite; }
+    .s2 { animation: cycle 12s ease-in-out 7.2s infinite; }
+    .s3 { animation: cycle 12s ease-in-out 11.2s infinite; }
     @keyframes cycle {
       0%   { opacity: 0; transform: translateY(8px); }
       5%   { opacity: 1; transform: none; }
@@ -36,7 +36,7 @@
       100% { opacity: 0; }
     }
 
-    .fade { animation: fade 0.8s ease-out 1.8s both; }
+    .fade { animation: fade 0.8s ease-out 3.2s both; }
     @keyframes fade { from { opacity: 0; } to { opacity: 1; } }
     .bob { animation: bob 1.4s ease-in-out infinite; }
     @keyframes bob { 50% { transform: translateY(4px); } }
@@ -48,13 +48,13 @@
   </style>
 
   <defs>
-    <clipPath id="typing"><rect class="type" x="50" y="30" height="60" width="240"/></clipPath>
+    <clipPath id="typing"><rect class="type" x="50" y="30" height="60" width="570"/></clipPath>
   </defs>
 
   <rect class="bg" x="1" y="1" width="798" height="238" rx="14"/>
 
-  <g clip-path="url(#typing)"><text id="title" x="50" y="78">blueyo0</text></g>
-  <rect class="cursor" x="242" y="46" width="14" height="38"/>
+  <g clip-path="url(#typing)"><text id="title" x="50" y="78">There's blueyo0, nice to meet u~</text></g>
+  <rect class="cursor" x="614" y="52" width="12" height="30"/>
 
   <text class="s s1" x="50" y="122">I am an AI software engineer.</text>
   <text class="s s2" x="50" y="122">I like creating tools for social good,</text>
