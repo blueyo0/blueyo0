@@ -1,37 +1,38 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 120" width="600" height="120" role="img" aria-label="Rolling Buffer · Learn, build, revisit.">
-  <!-- Rolling Buffer card. Edit #name / #tag / #desc / #go text freely. -->
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 64" width="800" height="64" role="img" aria-label="Rolling Buffer · keep what holds, revise what doesn't. read →">
+  <!-- Edit #name / #line / #go freely. -->
   <style>
-    :root { --paper:#f7f7ef; --ink:#17251e; --muted:#486054; --line:#becbbf; --green:#136448; }
-    @media (prefers-color-scheme: dark) {
-      :root { --paper:#131d18; --ink:#e8f3e9; --muted:#abc1b3; --line:#456152; --green:#82d9ae; }
-    }
-    text { font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; }
-    .bg { fill: var(--paper); stroke: var(--line); stroke-width: 1.5; }
-    .bar { fill: var(--green); }
-    #name { font-size: 26px; font-weight: 700; fill: var(--ink); }
-    #tag  { font-size: 15px; fill: var(--green); letter-spacing: 1px; }
-    #desc { font-size: 13px; fill: var(--muted); }
-    #go   { font-size: 14px; font-weight: 700; fill: var(--green); }
-    .ring  { fill: none; stroke: var(--green); stroke-width: 3; stroke-linecap: round; }
-    .ring2 { fill: none; stroke: var(--line); stroke-width: 3; }
-    .spin { transform-origin: 62px 60px; animation: spin 5s linear infinite; }
+    #name { font-family: Georgia, 'Times New Roman', serif; font-size: 22px; font-style: italic; fill: #e8f3e9; }
+    #line { font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; font-size: 13px; fill: #abc1b3; }
+    #go   { font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; font-size: 13px; font-weight: 700; fill: #82d9ae; }
+    .cell { fill: #82d9ae; opacity: .12; animation: fill 4s steps(1, end) infinite; }
+    .c2 { animation-delay: .5s; } .c3 { animation-delay: 1s; } .c4 { animation-delay: 1.5s; }
+    @keyframes fill { 0% { opacity: .12; } 12%, 75% { opacity: .9; } 76%, 100% { opacity: .12; } }
+    .spin { transform-origin: 34px 32px; animation: spin 6s linear infinite; }
     @keyframes spin { to { transform: rotate(360deg); } }
-    .nudge { animation: nudge 1.4s ease-in-out infinite; }
-    @keyframes nudge { 50% { transform: translateX(5px); } }
-    .glow { animation: glow 3s ease-in-out infinite; }
-    @keyframes glow { 50% { opacity: .35; } }
+    .nudge { animation: nudge 1.6s ease-in-out infinite; }
+    @keyframes nudge { 50% { transform: translateX(4px); } }
   </style>
+  <defs>
+    <linearGradient id="bg" x1="0" x2="1">
+      <stop offset="0" stop-color="#0d1611"/><stop offset="1" stop-color="#131d18"/>
+    </linearGradient>
+  </defs>
 
-  <rect class="bg" x="1" y="1" width="598" height="118" rx="12"/>
-  <rect class="bar glow" x="1" y="1" width="6" height="118" rx="3"/>
+  <rect x=".75" y=".75" width="798.5" height="62.5" rx="10" fill="url(#bg)" stroke="#1f2e26" stroke-width="1.5"/>
 
-  <circle class="ring2" cx="62" cy="60" r="28"/>
-  <g class="spin"><circle class="ring" cx="62" cy="60" r="28" stroke-dasharray="44 132"/></g>
-  <text x="62" y="67" text-anchor="middle" font-size="20" style="fill:var(--green)">↻</text>
+  <g class="spin">
+    <circle cx="34" cy="32" r="11" fill="none" stroke="#456152" stroke-width="2"/>
+    <path d="M34 21 A11 11 0 0 1 45 32" fill="none" stroke="#82d9ae" stroke-width="2" stroke-linecap="round"/>
+  </g>
 
-  <text id="name" x="112" y="48">Rolling Buffer</text>
-  <text id="tag"  x="112" y="72">Learn, build, revisit.</text>
-  <text id="desc" x="112" y="96">My notes on AI infra, agents and whatever I'm learning.</text>
+  <text id="name" x="60" y="39">Rolling Buffer</text>
 
-  <g class="nudge"><text id="go" x="575" y="66" text-anchor="end">read →</text></g>
+  <rect class="cell c1" x="232" y="24" width="10" height="16" rx="2"/>
+  <rect class="cell c2" x="248" y="24" width="10" height="16" rx="2"/>
+  <rect class="cell c3" x="264" y="24" width="10" height="16" rx="2"/>
+  <rect class="cell c4" x="280" y="24" width="10" height="16" rx="2"/>
+
+  <text id="line" x="314" y="37">keep what holds, revise what doesn't.</text>
+
+  <g class="nudge"><text id="go" x="770" y="37" text-anchor="end">read →</text></g>
 </svg>

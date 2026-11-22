@@ -1,71 +1,93 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 240" width="800" height="240" role="img" aria-label="There's blueyo0, nice to meet u~ · I am an AI Infra engineer. I like creating tools for social good, agentic systems, AI-powered healthcare, etc. Tech Otakus make the world better ;)">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 260" width="800" height="260" role="img" aria-label="There's blueyo0, nice to meet u~ · I am an AI Infra engineer. I like creating tools for social good, agentic systems, AI-powered healthcare, etc. Tech Otakus make the world better ;)">
   <!--
     Edit freely:
-      #title           -> big name
-      .s1 / .s2 / .s3  -> slogan lines (they cycle in turn)
-      #punch           -> highlighted motto
-      #cta             -> bottom line
+      #title           -> typed greeting (if longer, widen the #typing rect width)
+      .s1 / .s2 / .s3  -> rotating slogan lines
+      #punch           -> motto
   -->
   <style>
-    :root { --paper:#f7f7ef; --ink:#17251e; --muted:#486054; --line:#becbbf; --green:#136448; }
-    @media (prefers-color-scheme: dark) {
-      :root { --paper:#131d18; --ink:#e8f3e9; --muted:#abc1b3; --line:#456152; --green:#82d9ae; }
-    }
-    .bg { fill: var(--paper); stroke: var(--line); stroke-width: 1.5; }
     text { font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; }
-    #title { font-size: 30px; font-weight: 700; fill: var(--ink); }
-    .s { font-size: 19px; fill: var(--muted); opacity: 0; }
-    #punch { font-size: 24px; font-weight: 700; fill: var(--green); }
-    #cta { font-size: 15px; fill: var(--muted); letter-spacing: 1px; }
+    #title { font-size: 26px; font-weight: 700; fill: #e8f3e9; }
+    .prompt { font-size: 26px; font-weight: 700; fill: #82d9ae; }
+    .s { font-size: 16px; fill: #abc1b3; opacity: 0; }
+    #punch { font-size: 30px; font-weight: 700; }
+    .path { font-size: 12px; fill: #6b8577; }
 
-    /* name types in, cursor blinks */
-    .type { animation: type 3s steps(31, end) 0.2s both; }
-    @keyframes type { from { width: 0; } to { width: 570px; } }
-    .cursor { fill: var(--green); animation: blink 1s step-end infinite; }
+    .type { animation: type 2.6s steps(40, end) 0.4s both; }
+    @keyframes type { from { width: 0; } to { width: 640px; } }
+    .cursor { fill: #82d9ae; animation: blink 1s step-end infinite; }
     @keyframes blink { 50% { opacity: 0; } }
 
-    /* slogan lines rotate: 12s loop, 4s each */
     .s1 { animation: cycle 12s ease-in-out 3.2s infinite; }
     .s2 { animation: cycle 12s ease-in-out 7.2s infinite; }
     .s3 { animation: cycle 12s ease-in-out 11.2s infinite; }
     @keyframes cycle {
-      0%   { opacity: 0; transform: translateY(8px); }
-      5%   { opacity: 1; transform: none; }
-      30%  { opacity: 1; transform: none; }
-      35%  { opacity: 0; transform: translateY(-8px); }
-      100% { opacity: 0; }
+      0% { opacity: 0; transform: translateY(6px); }
+      5%, 30% { opacity: 1; transform: none; }
+      35%, 100% { opacity: 0; transform: translateY(-6px); }
     }
-
-    .fade { animation: fade 0.8s ease-out 3.2s both; }
+    .fade { animation: fade 1s ease-out 3.2s both; }
     @keyframes fade { from { opacity: 0; } to { opacity: 1; } }
-    .bob { animation: bob 1.4s ease-in-out infinite; }
-    @keyframes bob { 50% { transform: translateY(4px); } }
 
-    .spin { transform-origin: 700px 92px; animation: spin 6s linear infinite; }
-    @keyframes spin { to { transform: rotate(360deg); } }
-    .ring  { fill: none; stroke: var(--green); stroke-width: 3; stroke-linecap: round; }
-    .ring2 { fill: none; stroke: var(--line); stroke-width: 3; }
+    .glow { animation: breathe 8s ease-in-out infinite; transform-origin: 640px 90px; }
+    @keyframes breathe { 50% { opacity: .55; transform: translate(-30px, 20px) scale(1.15); } }
+
+    .sip { animation: sip 6s ease-in-out infinite; }
+    @keyframes sip { 50% { transform: translateY(1px); } }
   </style>
 
   <defs>
-    <clipPath id="typing"><rect class="type" x="50" y="30" height="60" width="570"/></clipPath>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0d1611"/><stop offset="1" stop-color="#131d18"/>
+    </linearGradient>
+    <radialGradient id="halo">
+      <stop offset="0" stop-color="#82d9ae" stop-opacity=".22"/>
+      <stop offset="1" stop-color="#82d9ae" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="ink" x1="0" x2="1">
+      <stop offset="0" stop-color="#82d9ae"/><stop offset="1" stop-color="#5eead4"/>
+    </linearGradient>
+    <pattern id="dots" width="18" height="18" patternUnits="userSpaceOnUse">
+      <circle cx="2" cy="2" r="1" fill="#82d9ae" fill-opacity=".09"/>
+    </pattern>
+    <clipPath id="frame"><rect x="0" y="0" width="800" height="260" rx="14"/></clipPath>
+    <clipPath id="typing"><rect class="type" x="74" y="70" height="40" width="640"/></clipPath>
+    <clipPath id="glass"><path d="M748 224 L774 224 L771 249 L751 249 Z"/></clipPath>
   </defs>
 
-  <rect class="bg" x="1" y="1" width="798" height="238" rx="14"/>
+  <g clip-path="url(#frame)">
+    <rect width="800" height="260" fill="url(#bg)"/>
+    <rect width="800" height="260" fill="url(#dots)"/>
+    <circle class="glow" cx="640" cy="90" r="220" fill="url(#halo)"/>
 
-  <g clip-path="url(#typing)"><text id="title" x="50" y="78">There's blueyo0, nice to meet u~</text></g>
-  <rect class="cursor" x="614" y="52" width="12" height="30"/>
+    <!-- title bar -->
+    <rect width="800" height="34" fill="#0a120e"/>
+    <circle cx="22" cy="17" r="5" fill="#3a4a41"/>
+    <circle cx="40" cy="17" r="5" fill="#3a4a41"/>
+    <circle cx="58" cy="17" r="5" fill="#3a4a41"/>
+    <text class="path" x="400" y="21" text-anchor="middle">~/blueyo0</text>
 
-  <text class="s s1" x="50" y="122">I am an AI Infra engineer.</text>
-  <text class="s s2" x="50" y="122">I like creating tools for social good,</text>
-  <text class="s s3" x="50" y="122">agentic systems, AI-powered healthcare, etc.</text>
+    <!-- greeting -->
+    <text class="prompt" x="48" y="98">$</text>
+    <g clip-path="url(#typing)"><text id="title" x="74" y="98">There's blueyo0, nice to meet u~<tspan class="cursor">▌</tspan></text></g>
 
-  <g class="fade">
-    <text id="punch" x="50" y="166">Tech Otakus make the world better ;)</text>
-    <text id="cta" x="50" y="208">Check out my work <tspan class="bob">↓</tspan></text>
+    <!-- slogans -->
+    <text class="s s1" x="74" y="140">I am an AI Infra engineer.</text>
+    <text class="s s2" x="74" y="140">I like creating tools for social good,</text>
+    <text class="s s3" x="74" y="140">agentic systems, AI-powered healthcare, etc.</text>
+
+    <g class="fade">
+      <text id="punch" x="48" y="208" fill="url(#ink)">Tech Otakus make the world better ;)</text>
+    </g>
+
+    <!-- . -->
+    <g opacity=".9">
+      <g clip-path="url(#glass)">
+        <rect class="sip" x="746" y="234" width="32" height="20" fill="#8a3a2e" fill-opacity=".6"/>
+      </g>
+      <rect x="755" y="231" width="10" height="10" rx="1.5" fill="none" stroke="#456152" stroke-width="1"/>
+      <path d="M748 224 L774 224 L771 249 L751 249 Z" fill="none" stroke="#456152" stroke-width="1.5" stroke-linejoin="round"/>
+    </g>
   </g>
-
-  <circle class="ring2" cx="700" cy="92" r="44"/>
-  <g class="spin"><circle class="ring" cx="700" cy="92" r="44" stroke-dasharray="70 207"/></g>
-  <text x="700" y="100" text-anchor="middle" font-size="22" style="fill:var(--green)">↻</text>
+  <rect x=".75" y=".75" width="798.5" height="258.5" rx="14" fill="none" stroke="#1f2e26" stroke-width="1.5"/>
 </svg>

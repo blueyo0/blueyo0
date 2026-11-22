@@ -1,18 +1,14 @@
 <div align="center">
 
-<img src="assets/banner.svg?v=6" width="600" alt="There's blueyo0, nice to meet u~ · Tech Otakus make the world better ;)">
+<img src="assets/banner.svg?v=7" width="720" alt="There's blueyo0, nice to meet u~ · Tech Otakus make the world better ;)">
 
 </div>
 
 ### Hi, I'm Haoyu Wang 👋
 
-I work on **AI Infra**: compilers, LLM serving and agentic systems.\
-Before that I was a medical-AI researcher, which is where [SAM-Med3D](https://github.com/uni-medical/SAM-Med3D) came from.\
-These days I care about making models faster and making AI useful for real people.
-
-<p align="center">
-<a href="https://blueyo0.github.io/rolling-buffer/"><img src="assets/rolling-buffer.svg?v=1" width="600" alt="Rolling Buffer · Learn, build, revisit. Read my notes →"></a>
-</p>
+`now` &nbsp; AI Infra: compilers & LLM serving\
+`was` &nbsp; medical AI researcher, behind SAM-Med3D & STU-Net\
+`off` &nbsp; ARPGs, cocktails, family time
 
 ### Things I've made
 
@@ -39,22 +35,20 @@ These days I care about making models faster and making AI useful for real peopl
 </tr>
 </table>
 
-### Trophy shelf 🎮
+<br>
 
-<sub>Games I've finished. Click one to visit it.</sub>
+<p align="center">
+<a href="https://blueyo0.github.io/rolling-buffer/"><img src="assets/rolling-buffer.svg?v=2" width="720" alt="Rolling Buffer · keep what holds, revise what doesn't. read →"></a>
+</p>
 
-<a href="https://www.google.com/search?q=Pok%C3%A9mon+Pokopia" title="Pokémon Pokopia"><img src="assets/Pokopia.png" width="48" height="48" alt="Pokémon Pokopia"></a>
-<a href="https://store.steampowered.com/app/1030300" title="Hollow Knight: Silksong"><img src="assets/SilkSong.jpg" width="48" height="48" alt="Hollow Knight: Silksong"></a>
-<a href="https://store.steampowered.com/search/?term=Sultan%27s+Game" title="Sultan's Game"><img src="assets/SultanGame.jpg" width="48" height="48" alt="Sultan's Game"></a>
-<a href="https://store.steampowered.com/app/2358720" title="Black Myth: Wukong"><img src="assets/BlackMyth.jpg" width="48" height="48" alt="Black Myth: Wukong"></a>
-<a href="https://store.steampowered.com/search/?term=Bear+and+Wolf" title="Bear and Wolf"><img src="assets/BearAndWolf.jpg" width="48" height="48" alt="Bear and Wolf"></a>
-<a href="https://www.google.com/search?q=Father+and+Son+game" title="Father and Son"><img src="assets/FatherAndSon.jpg" width="48" height="48" alt="Father and Son"></a>
-<a href="https://store.steampowered.com/app/1446780" title="Monster Hunter Rise"><img src="assets/MHR.png" width="48" height="48" alt="Monster Hunter Rise"></a>
-<a href="https://store.steampowered.com/app/582010" title="Monster Hunter: World"><img src="assets/MHW.png" width="48" height="48" alt="Monster Hunter: World"></a>
-<a href="https://store.steampowered.com/app/1245620" title="Elden Ring"><img src="assets/ElderRing_HD.png" width="48" height="48" alt="Elden Ring"></a>
-<a href="https://store.steampowered.com/app/570940" title="Dark Souls"><img src="assets/DarkSouls.png" width="48" height="48" alt="Dark Souls"></a>
-<a href="https://store.steampowered.com/app/567640" title="Danganronpa V3"><img src="assets/DanganronpaV3.png" width="48" height="48" alt="Danganronpa V3"></a>
+<br>
 
----
+<div align="center">
 
-<div align="center"><sub>又中他人一计 · thanks for stopping by ✌️</sub></div>
+<sub>bonfires lit</sub>
+
+<a href="https://www.google.com/search?q=Pok%C3%A9mon+Pokopia" title="Pokémon Pokopia"><img src="assets/Pokopia.png" width="28" height="28" alt="Pokémon Pokopia"></a> <a href="https://store.steampowered.com/app/1030300" title="Hollow Knight: Silksong"><img src="assets/SilkSong.jpg" width="28" height="28" alt="Hollow Knight: Silksong"></a> <a href="https://store.steampowered.com/search/?term=Sultan%27s+Game" title="Sultan's Game"><img src="assets/SultanGame.jpg" width="28" height="28" alt="Sultan's Game"></a> <a href="https://store.steampowered.com/app/2358720" title="Black Myth: Wukong"><img src="assets/BlackMyth.jpg" width="28" height="28" alt="Black Myth: Wukong"></a> <a href="https://store.steampowered.com/search/?term=Bear+and+Wolf" title="Bear and Wolf"><img src="assets/BearAndWolf.jpg" width="28" height="28" alt="Bear and Wolf"></a> <a href="https://www.google.com/search?q=Father+and+Son+game" title="Father and Son"><img src="assets/FatherAndSon.jpg" width="28" height="28" alt="Father and Son"></a> <a href="https://store.steampowered.com/app/1446780" title="Monster Hunter Rise"><img src="assets/MHR.png" width="28" height="28" alt="Monster Hunter Rise"></a> <a href="https://store.steampowered.com/app/582010" title="Monster Hunter: World"><img src="assets/MHW.png" width="28" height="28" alt="Monster Hunter: World"></a> <a href="https://store.steampowered.com/app/1245620" title="Elden Ring"><img src="assets/ElderRing_HD.png" width="28" height="28" alt="Elden Ring"></a> <a href="https://store.steampowered.com/app/570940" title="Dark Souls"><img src="assets/DarkSouls.png" width="28" height="28" alt="Dark Souls"></a> <a href="https://store.steampowered.com/app/567640" title="Danganronpa V3"><img src="assets/DanganronpaV3.png" width="28" height="28" alt="Danganronpa V3"></a>
+
+<sub>又中他人一计</sub>
+
+</div>
