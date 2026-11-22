@@ -10,7 +10,9 @@ I work on **AI Infra**: compilers, LLM serving and agentic systems.\
 Before that I was a medical-AI researcher, which is where [SAM-Med3D](https://github.com/uni-medical/SAM-Med3D) came from.\
 These days I care about making models faster and making AI useful for real people.
 
-📝 Notes live at [Rolling Buffer](https://blueyo0.github.io/rolling-buffer/): learn, build, revisit.
+<p align="center">
+<a href="https://blueyo0.github.io/rolling-buffer/"><img src="assets/rolling-buffer.svg?v=1" width="600" alt="Rolling Buffer · Learn, build, revisit. Read my notes →"></a>
+</p>
 
 ### Things I've made
 

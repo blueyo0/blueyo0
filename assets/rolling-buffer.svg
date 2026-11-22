@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 120" width="600" height="120" role="img" aria-label="Rolling Buffer · Learn, build, revisit.">
+  <!-- Rolling Buffer card. Edit #name / #tag / #desc / #go text freely. -->
+  <style>
+    :root { --paper:#f7f7ef; --ink:#17251e; --muted:#486054; --line:#becbbf; --green:#136448; }
+    @media (prefers-color-scheme: dark) {
+      :root { --paper:#131d18; --ink:#e8f3e9; --muted:#abc1b3; --line:#456152; --green:#82d9ae; }
+    }
+    text { font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; }
+    .bg { fill: var(--paper); stroke: var(--line); stroke-width: 1.5; }
+    .bar { fill: var(--green); }
+    #name { font-size: 26px; font-weight: 700; fill: var(--ink); }
+    #tag  { font-size: 15px; fill: var(--green); letter-spacing: 1px; }
+    #desc { font-size: 13px; fill: var(--muted); }
+    #go   { font-size: 14px; font-weight: 700; fill: var(--green); }
+    .ring  { fill: none; stroke: var(--green); stroke-width: 3; stroke-linecap: round; }
+    .ring2 { fill: none; stroke: var(--line); stroke-width: 3; }
+    .spin { transform-origin: 62px 60px; animation: spin 5s linear infinite; }
+    @keyframes spin { to { transform: rotate(360deg); } }
+    .nudge { animation: nudge 1.4s ease-in-out infinite; }
+    @keyframes nudge { 50% { transform: translateX(5px); } }
+    .glow { animation: glow 3s ease-in-out infinite; }
+    @keyframes glow { 50% { opacity: .35; } }
+  </style>
+
+  <rect class="bg" x="1" y="1" width="598" height="118" rx="12"/>
+  <rect class="bar glow" x="1" y="1" width="6" height="118" rx="3"/>
+
+  <circle class="ring2" cx="62" cy="60" r="28"/>
+  <g class="spin"><circle class="ring" cx="62" cy="60" r="28" stroke-dasharray="44 132"/></g>
+  <text x="62" y="67" text-anchor="middle" font-size="20" style="fill:var(--green)">↻</text>
+
+  <text id="name" x="112" y="48">Rolling Buffer</text>
+  <text id="tag"  x="112" y="72">Learn, build, revisit.</text>
+  <text id="desc" x="112" y="96">My notes on AI infra, agents and whatever I'm learning.</text>
+
+  <g class="nudge"><text id="go" x="575" y="66" text-anchor="end">read →</text></g>
+</svg>
