@@ -1,6 +1,6 @@
 <div align="center">
 
-<a href="https://www.dante-nyc.com/wv/#fall-into-dante-copy-1" title="🍸 Dante Negroni · Bombay Sapphire, Campari, Martini &amp; Rossi Vermouth — Dante NYC Menu"><img src="assets/banner.svg?v=11" width="828" alt="There's blueyo0, nice to meet u~ · Tech Otakus make the world better ;)"></a>
+<a href="https://www.dante-nyc.com/wv/#fall-into-dante-copy-1" title="🍸 Dante Negroni · Bombay Sapphire, Campari, Martini &amp; Rossi Vermouth — Dante NYC Menu"><img src="assets/banner.svg?v=12" width="828" alt="There's blueyo0, nice to meet u~ · Tech Otakus make the world better ;)"></a>
 
 </div>
 
@@ -22,17 +22,17 @@
 </tr>
 <tr>
 <td valign="top" align="center">
-<a href="https://github.com/uni-medical/SAM-Med3D"><img src="https://img.shields.io/badge/SAM--Med3D-3D_Segmentation-93C5FD?style=flat-square" height="24" alt="SAM-Med3D"></a><br>Promptable 3D segmentation<br><br>
-<a href="https://github.com/uni-medical/STU-Net"><img src="https://img.shields.io/badge/STU--Net-Scalable_Segmentation-6EE7B7?style=flat-square" height="24" alt="STU-Net"></a><br>1.4B-param pre-trained model
+<a href="https://github.com/uni-medical/SAM-Med3D"><img src="https://img.shields.io/badge/SAM--Med3D-3D_Segmentation-93C5FD?style=flat-square" alt="SAM-Med3D"></a><br>Promptable 3D segmentation<br><br>
+<a href="https://github.com/uni-medical/STU-Net"><img src="https://img.shields.io/badge/STU--Net-Scalable_Segmentation-6EE7B7?style=flat-square" alt="STU-Net"></a><br>1.4B-param pre-trained model
 </td>
 <td valign="top" align="center">
-<a href="https://github.com/uni-medical/pytorch-medical-image-models"><img src="https://img.shields.io/badge/MedIM-Medical_AI_Toolkit-7F82BB?style=flat-square" height="24" alt="MedIM"></a><br>One-line SoTA medical models<br><br>
-<a href="https://github.com/uni-medical/CREA"><img src="https://img.shields.io/badge/CreA-Agentic_Bio_Research-B179D8?style=flat-square" height="24" alt="CreA"></a><br>Agents for bio research
+<a href="https://github.com/uni-medical/pytorch-medical-image-models"><img src="https://img.shields.io/badge/MedIM-Medical_AI_Toolkit-7F82BB?style=flat-square" alt="MedIM"></a><br>One-line SoTA medical models<br><br>
+<a href="https://github.com/uni-medical/CREA"><img src="https://img.shields.io/badge/CreA-Agentic_Bio_Research-B179D8?style=flat-square" alt="CreA"></a><br>Agents for bio research
 </td>
 <td valign="top" align="center">
-<a href="https://github.com/sgl-project/sglang"><img src="https://img.shields.io/badge/SGLang-LLM_Serving-FADDCD?style=flat-square" height="24" alt="SGLang"></a><br>Fast LLM serving framework<br><br>
-<a href="https://github.com/vllm-project/vllm"><img src="https://img.shields.io/badge/vLLM-LLM_Serving-30A2FF?style=flat-square" height="24" alt="vLLM"></a><br>High-throughput LLM inference<br><br>
-<a href="https://github.com/open-mmlab/mmsegmentation"><img src="https://img.shields.io/badge/MMSeg-Segmentation_Toolkit-005B9F?style=flat-square" height="24" alt="MMSeg"></a><br>OpenMMLab segmentation kit
+<a href="https://github.com/sgl-project/sglang"><img src="https://img.shields.io/badge/SGLang-LLM_Serving-FADDCD?style=flat-square" alt="SGLang"></a><br>Fast LLM serving framework<br><br>
+<a href="https://github.com/vllm-project/vllm"><img src="https://img.shields.io/badge/vLLM-LLM_Serving-30A2FF?style=flat-square" alt="vLLM"></a><br>High-throughput LLM inference<br><br>
+<a href="https://github.com/open-mmlab/mmsegmentation"><img src="https://img.shields.io/badge/MMSeg-Segmentation_Toolkit-005B9F?style=flat-square" alt="MMSeg"></a><br>OpenMMLab segmentation kit
 </td>
 </tr>
 </table>
