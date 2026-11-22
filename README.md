@@ -1,42 +1,59 @@
-![Profile_HD_0 6x](https://github.com/user-attachments/assets/31d60b72-7a7b-4838-92f9-425744b171a4)
+<div align="center">
 
-## A little bit about me
+<img src="https://github.com/user-attachments/assets/31d60b72-7a7b-4838-92f9-425744b171a4" width="600" alt="blueyo0 banner">
 
-🖥️ &nbsp; Currently working on AI Compiler and Agentic System. Previously a Medical AI Researcher (see [SAM-Med3D](https://github.com/uni-medical/SAM-Med3D.git)).\
-🧠 &nbsp; I'm actively learning about ML Systems 🔧, Agentic Application 🤖 and AI-Powered Healthcare 🩺.\
-🎮 &nbsp; In my free time, I enjoy gaming, taking leisurely walks, and spending quality time with family.
+**Haoyu Wang** · <sub>Learn, build, revisit.</sub>
 
-📝 &nbsp; [Rolling Buffer](https://blueyo0.github.io/rolling-buffer/) · Learn, build, revisit.
+<a href="https://blueyo0.github.io/rolling-buffer/">Rolling Buffer</a> ·
+<a href="https://scholar.google.com/citations?user=mBXk8mYAAAAJ">Scholar</a> ·
+<a href="https://github.com/blueyo0">GitHub</a>
 
-## There's my works
-### Researches
-
-[![x](https://img.shields.io/badge/Universal_Seg-SAM--Med3D-93C5FD?style=for-the-badge)](https://github.com/uni-medical/SAM-Med3D)
-[![x](https://img.shields.io/badge/Scalable_Seg-STU--Net-6EE7B7?style=for-the-badge)](https://github.com/uni-medical/STU-Net)
-
-### Useful tools
-
-[![x](https://img.shields.io/badge/Medical_AI_Toolkit-MedIM-7F82BB?style=for-the-badge)](https://github.com/uni-medical/pytorch-medical-image-models)
-[![x](https://img.shields.io/badge/Agentic_Bio_Research-CreA-B179D8?style=for-the-badge)](https://github.com/uni-medical/CREA)
-
-### Open-source contributions
-
-[![x](https://img.shields.io/badge/LLM_Serving-SGLang-FADDCD?style=for-the-badge)](https://github.com/sgl-project/sglang)
-[![x](https://img.shields.io/badge/LLM_Serving-vLLM-30A2FF?style=for-the-badge)](https://github.com/vllm-project/vllm)
-[![x](https://img.shields.io/badge/Seg_Toolkit-MMSeg-005B9F?style=for-the-badge)](https://github.com/open-mmlab/mmsegmentation)
-
-## Game achievements unlocked
-
-<div style="display: flex; justify-content: flex-start; gap: 5px;">
-  <img src="assets/Pokopia.png"          width="50" alt="Game Achievement">
-  <img src="assets/SilkSong.jpg"        width="50" alt="Game Achievement">
-  <img src="assets/SultanGame.jpg"        width="50" alt="Game Achievement">
-  <img src="assets/BlackMyth.jpg"        width="50" alt="Game Achievement">
-  <img src="assets/BearAndWolf.jpg"      width="50" alt="Game Achievement">
-  <img src="assets/FatherAndSon.jpg"     width="50" alt="Game Achievement">
-  <img src="assets/MHR.png"              width="50" alt="Game Achievement">
-  <img src="assets/MHW.png"              width="50" alt="Game Achievement">
-  <img src="assets/ElderRing_HD.png"     width="50" alt="Game Achievement">
-  <img src="assets/DarkSouls.png"        width="50" alt="Game Achievement">
-  <img src="assets/DanganronpaV3.png"    width="50" alt="Game Achievement">
 </div>
+
+---
+
+### About
+
+🖥️ &nbsp; Working on AI compilers and agentic systems. Previously a medical AI researcher (see [SAM-Med3D](https://github.com/uni-medical/SAM-Med3D)).\
+🧠 &nbsp; Learning about ML systems, agentic applications and AI-powered healthcare.\
+🎮 &nbsp; Off the clock: gaming, slow walks, and time with family.
+
+### Works
+
+**Research**
+
+[![SAM-Med3D](https://img.shields.io/badge/SAM--Med3D-3D_Medical_Segmentation-136448?style=flat-square)](https://github.com/uni-medical/SAM-Med3D)
+[![STU-Net](https://img.shields.io/badge/STU--Net-Scalable_Segmentation-136448?style=flat-square)](https://github.com/uni-medical/STU-Net)
+
+**Tools**
+
+[![MedIM](https://img.shields.io/badge/MedIM-Medical_AI_Toolkit-456152?style=flat-square)](https://github.com/uni-medical/pytorch-medical-image-models)
+[![CreA](https://img.shields.io/badge/CreA-Agentic_Bio_Research-456152?style=flat-square)](https://github.com/uni-medical/CREA)
+
+**Open source**
+
+[![SGLang](https://img.shields.io/badge/SGLang-LLM_Serving-456152?style=flat-square)](https://github.com/sgl-project/sglang)
+[![vLLM](https://img.shields.io/badge/vLLM-LLM_Serving-456152?style=flat-square)](https://github.com/vllm-project/vllm)
+[![MMSeg](https://img.shields.io/badge/MMSeg-Segmentation_Toolkit-456152?style=flat-square)](https://github.com/open-mmlab/mmsegmentation)
+
+<details>
+<summary><b>Game achievements unlocked</b></summary>
+<br>
+
+<img src="assets/Pokopia.png" width="48" height="48" alt="Pokopia" title="Pokopia">
+<img src="assets/SilkSong.jpg" width="48" height="48" alt="Hollow Knight: Silksong" title="Hollow Knight: Silksong">
+<img src="assets/SultanGame.jpg" width="48" height="48" alt="Sultan's Game" title="Sultan's Game">
+<img src="assets/BlackMyth.jpg" width="48" height="48" alt="Black Myth: Wukong" title="Black Myth: Wukong">
+<img src="assets/BearAndWolf.jpg" width="48" height="48" alt="Bear and Wolf" title="Bear and Wolf">
+<img src="assets/FatherAndSon.jpg" width="48" height="48" alt="Father and Son" title="Father and Son">
+<img src="assets/MHR.png" width="48" height="48" alt="Monster Hunter Rise" title="Monster Hunter Rise">
+<img src="assets/MHW.png" width="48" height="48" alt="Monster Hunter: World" title="Monster Hunter: World">
+<img src="assets/ElderRing_HD.png" width="48" height="48" alt="Elden Ring" title="Elden Ring">
+<img src="assets/DarkSouls.png" width="48" height="48" alt="Dark Souls" title="Dark Souls">
+<img src="assets/DanganronpaV3.png" width="48" height="48" alt="Danganronpa V3" title="Danganronpa V3">
+
+</details>
+
+---
+
+<div align="center"><sub>又中他人一计</sub></div>
