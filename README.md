@@ -36,23 +36,27 @@
 [![vLLM](https://img.shields.io/badge/vLLM-LLM_Serving-136448?style=flat-square)](https://github.com/vllm-project/vllm)
 [![MMSeg](https://img.shields.io/badge/MMSeg-Segmentation_Toolkit-136448?style=flat-square)](https://github.com/open-mmlab/mmsegmentation)
 
-<details>
-<summary><b>Game achievements unlocked</b></summary>
-<br>
+### 🏆 Achievement Wall
 
-<img src="assets/Pokopia.png" width="48" height="48" alt="Pokopia" title="Pokopia">
-<img src="assets/SilkSong.jpg" width="48" height="48" alt="Hollow Knight: Silksong" title="Hollow Knight: Silksong">
-<img src="assets/SultanGame.jpg" width="48" height="48" alt="Sultan's Game" title="Sultan's Game">
-<img src="assets/BlackMyth.jpg" width="48" height="48" alt="Black Myth: Wukong" title="Black Myth: Wukong">
-<img src="assets/BearAndWolf.jpg" width="48" height="48" alt="Bear and Wolf" title="Bear and Wolf">
-<img src="assets/FatherAndSon.jpg" width="48" height="48" alt="Father and Son" title="Father and Son">
-<img src="assets/MHR.png" width="48" height="48" alt="Monster Hunter Rise" title="Monster Hunter Rise">
-<img src="assets/MHW.png" width="48" height="48" alt="Monster Hunter: World" title="Monster Hunter: World">
-<img src="assets/ElderRing_HD.png" width="48" height="48" alt="Elden Ring" title="Elden Ring">
-<img src="assets/DarkSouls.png" width="48" height="48" alt="Dark Souls" title="Dark Souls">
-<img src="assets/DanganronpaV3.png" width="48" height="48" alt="Danganronpa V3" title="Danganronpa V3">
+<sub><b>11 / 11</b> games completed · click an icon to visit the game</sub>
 
-</details>
+<table>
+<tr>
+<td align="center" width="96"><a href="https://www.google.com/search?q=Pok%C3%A9mon+Pokopia" title="Pokémon Pokopia"><img src="assets/Pokopia.png" width="64" height="64" alt="Pokémon Pokopia"></a><br><sub>Pokémon Pokopia</sub></td>
+<td align="center" width="96"><a href="https://store.steampowered.com/app/1030300" title="Hollow Knight: Silksong"><img src="assets/SilkSong.jpg" width="64" height="64" alt="Hollow Knight: Silksong"></a><br><sub>Hollow Knight: Silksong</sub></td>
+<td align="center" width="96"><a href="https://store.steampowered.com/search/?term=Sultan%27s+Game" title="Sultan's Game"><img src="assets/SultanGame.jpg" width="64" height="64" alt="Sultan's Game"></a><br><sub>Sultan's Game</sub></td>
+<td align="center" width="96"><a href="https://store.steampowered.com/app/2358720" title="Black Myth: Wukong"><img src="assets/BlackMyth.jpg" width="64" height="64" alt="Black Myth: Wukong"></a><br><sub>Black Myth: Wukong</sub></td>
+<td align="center" width="96"><a href="https://store.steampowered.com/search/?term=Bear+and+Wolf" title="Bear and Wolf"><img src="assets/BearAndWolf.jpg" width="64" height="64" alt="Bear and Wolf"></a><br><sub>Bear and Wolf</sub></td>
+<td align="center" width="96"><a href="https://www.google.com/search?q=Father+and+Son+game" title="Father and Son"><img src="assets/FatherAndSon.jpg" width="64" height="64" alt="Father and Son"></a><br><sub>Father and Son</sub></td>
+</tr>
+<tr>
+<td align="center" width="96"><a href="https://store.steampowered.com/app/1446780" title="Monster Hunter Rise"><img src="assets/MHR.png" width="64" height="64" alt="Monster Hunter Rise"></a><br><sub>Monster Hunter Rise</sub></td>
+<td align="center" width="96"><a href="https://store.steampowered.com/app/582010" title="Monster Hunter: World"><img src="assets/MHW.png" width="64" height="64" alt="Monster Hunter: World"></a><br><sub>Monster Hunter: World</sub></td>
+<td align="center" width="96"><a href="https://store.steampowered.com/app/1245620" title="Elden Ring"><img src="assets/ElderRing_HD.png" width="64" height="64" alt="Elden Ring"></a><br><sub>Elden Ring</sub></td>
+<td align="center" width="96"><a href="https://store.steampowered.com/app/570940" title="Dark Souls"><img src="assets/DarkSouls.png" width="64" height="64" alt="Dark Souls"></a><br><sub>Dark Souls</sub></td>
+<td align="center" width="96"><a href="https://store.steampowered.com/app/567640" title="Danganronpa V3"><img src="assets/DanganronpaV3.png" width="64" height="64" alt="Danganronpa V3"></a><br><sub>Danganronpa V3</sub></td>
+</tr>
+</table>
 
 ---
 
