@@ -16,9 +16,9 @@
 
 <table align="center">
 <tr>
-<th width="228">🔬 Research</th>
-<th width="228">🧰 Tools</th>
-<th width="228">🌍 Open source</th>
+<th width="256">🔬 Research</th>
+<th width="256">🧰 Tools</th>
+<th width="256">🌍 Open source</th>
 </tr>
 <tr>
 <td valign="top" align="center">
