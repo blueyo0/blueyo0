@@ -1,6 +1,6 @@
 <div align="center">
 
-<a href="https://www.dante-nyc.com/wv/#fall-into-dante-copy-1" title="🍸 Dante Negroni · Bombay Sapphire, Campari, Martini &amp; Rossi Vermouth — Dante NYC Menu"><img src="assets/banner.svg?v=10" width="828" alt="There's blueyo0, nice to meet u~ · Tech Otakus make the world better ;)"></a>
+<a href="https://www.dante-nyc.com/wv/#fall-into-dante-copy-1" title="🍸 Dante Negroni · Bombay Sapphire, Campari, Martini &amp; Rossi Vermouth — Dante NYC Menu"><img src="assets/banner.svg?v=11" width="828" alt="There's blueyo0, nice to meet u~ · Tech Otakus make the world better ;)"></a>
 
 </div>
 
@@ -42,7 +42,7 @@
 <br>
 
 <p align="center">
-<a href="https://blueyo0.github.io/rolling-buffer/"><img src="assets/rolling-buffer.svg?v=3" width="828" alt="Rolling Buffer · keep what holds, revise what doesn't. read →"></a>
+<a href="https://blueyo0.github.io/rolling-buffer/"><img src="assets/rolling-buffer.svg?v=4" width="828" alt="Rolling Buffer · keep what holds, revise what doesn't. read →"></a>
 </p>
 
 <br>
