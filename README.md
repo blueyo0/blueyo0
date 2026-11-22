@@ -2,11 +2,9 @@
 
 <img src="assets/banner.svg?v=6" width="600" alt="There's blueyo0, nice to meet u~ · Tech Otakus make the world better ;)">
 
-**Haoyu Wang** · <sub>AI Infra engineer · CQU → SJTU → Intel → now</sub>
-
 </div>
 
-### Hi, I'm Haoyu 👋
+### Hi, I'm Haoyu Wang 👋
 
 I work on **AI Infra**: compilers, LLM serving and agentic systems.\
 Before that I was a medical-AI researcher, which is where [SAM-Med3D](https://github.com/uni-medical/SAM-Med3D) came from.\
