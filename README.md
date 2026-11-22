@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="assets/banner.svg?v=7" width="720" alt="There's blueyo0, nice to meet u~ · Tech Otakus make the world better ;)">
+<img src="assets/banner.svg?v=8" width="720" alt="There's blueyo0, nice to meet u~ · Tech Otakus make the world better ;)">
 
 </div>
 
@@ -12,28 +12,32 @@
 
 ### Things I've made
 
-<table>
+<div align="center">
+
+<table align="center">
 <tr>
-<th width="33%">🔬 Research</th>
-<th width="33%">🧰 Tools</th>
-<th width="33%">🌍 Open source</th>
+<th width="228">🔬 Research</th>
+<th width="228">🧰 Tools</th>
+<th width="228">🌍 Open source</th>
 </tr>
 <tr>
 <td valign="top" align="center">
-<a href="https://github.com/uni-medical/SAM-Med3D"><img src="https://img.shields.io/badge/SAM--Med3D-3D_Medical_Segmentation-93C5FD?style=flat-square" alt="SAM-Med3D"></a><br><sub>Promptable segmentation for 3D medical images</sub><br><br>
-<a href="https://github.com/uni-medical/STU-Net"><img src="https://img.shields.io/badge/STU--Net-Scalable_Segmentation-6EE7B7?style=flat-square" alt="STU-Net"></a><br><sub>1.4B-param pre-trained segmentation model</sub>
+<p><a href="https://github.com/uni-medical/SAM-Med3D"><img src="https://img.shields.io/badge/SAM--Med3D-3D_Segmentation-93C5FD?style=flat-square" alt="SAM-Med3D"></a><br><sub>Promptable 3D medical segmentation</sub></p>
+<p><a href="https://github.com/uni-medical/STU-Net"><img src="https://img.shields.io/badge/STU--Net-Scalable_Segmentation-6EE7B7?style=flat-square" alt="STU-Net"></a><br><sub>1.4B-param pre-trained model</sub></p>
 </td>
 <td valign="top" align="center">
-<a href="https://github.com/uni-medical/pytorch-medical-image-models"><img src="https://img.shields.io/badge/MedIM-Medical_AI_Toolkit-7F82BB?style=flat-square" alt="MedIM"></a><br><sub>One line to load SoTA medical image models</sub><br><br>
-<a href="https://github.com/uni-medical/CREA"><img src="https://img.shields.io/badge/CreA-Agentic_Bio_Research-B179D8?style=flat-square" alt="CreA"></a><br><sub>Agents that help with bio research</sub>
+<p><a href="https://github.com/uni-medical/pytorch-medical-image-models"><img src="https://img.shields.io/badge/MedIM-Medical_AI_Toolkit-7F82BB?style=flat-square" alt="MedIM"></a><br><sub>One line to load SoTA medical models</sub></p>
+<p><a href="https://github.com/uni-medical/CREA"><img src="https://img.shields.io/badge/CreA-Agentic_Bio_Research-B179D8?style=flat-square" alt="CreA"></a><br><sub>Agents for bio research</sub></p>
 </td>
 <td valign="top" align="center">
-<a href="https://github.com/sgl-project/sglang"><img src="https://img.shields.io/badge/SGLang-LLM_Serving-FADDCD?style=flat-square" alt="SGLang"></a><br><sub>Fast LLM serving framework</sub><br><br>
-<a href="https://github.com/vllm-project/vllm"><img src="https://img.shields.io/badge/vLLM-LLM_Serving-30A2FF?style=flat-square" alt="vLLM"></a><br><sub>High-throughput LLM inference engine</sub><br><br>
-<a href="https://github.com/open-mmlab/mmsegmentation"><img src="https://img.shields.io/badge/MMSeg-Segmentation_Toolkit-005B9F?style=flat-square" alt="MMSeg"></a><br><sub>OpenMMLab segmentation toolbox</sub>
+<p><a href="https://github.com/sgl-project/sglang"><img src="https://img.shields.io/badge/SGLang-LLM_Serving-FADDCD?style=flat-square" alt="SGLang"></a><br><sub>Fast LLM serving framework</sub></p>
+<p><a href="https://github.com/vllm-project/vllm"><img src="https://img.shields.io/badge/vLLM-LLM_Serving-30A2FF?style=flat-square" alt="vLLM"></a><br><sub>High-throughput LLM inference</sub></p>
+<p><a href="https://github.com/open-mmlab/mmsegmentation"><img src="https://img.shields.io/badge/MMSeg-Segmentation_Toolkit-005B9F?style=flat-square" alt="MMSeg"></a><br><sub>OpenMMLab segmentation toolbox</sub></p>
 </td>
 </tr>
 </table>
+
+</div>
 
 <br>
 
