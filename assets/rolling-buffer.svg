@@ -1,7 +1,7 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 64" width="800" height="64" role="img" aria-label="Rolling Buffer · keep what holds, revise what doesn't. read →">
   <!-- Edit #name / #line / #go freely. -->
   <style>
-    #name { font-family: Georgia, 'Times New Roman', serif; font-size: 22px; font-style: italic; fill: #e8f3e9; }
+    #name { font-family: Georgia, 'Times New Roman', serif; font-size: 18.5px; font-style: italic; fill: #e8f3e9; }
     #line { font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; font-size: 13px; fill: #abc1b3; }
     #go   { font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; font-size: 13px; font-weight: 700; fill: #82d9ae; }
     .cell { fill: #82d9ae; opacity: .12; animation: fill 4s steps(1, end) infinite; }
@@ -25,14 +25,14 @@
     <path d="M34 21 A11 11 0 0 1 45 32" fill="none" stroke="#82d9ae" stroke-width="2" stroke-linecap="round"/>
   </g>
 
-  <text id="name" x="60" y="39">Rolling Buffer</text>
+  <text id="name" x="60" y="38">Rolling Buffer</text>
 
-  <rect class="cell c1" x="232" y="24" width="10" height="16" rx="2"/>
-  <rect class="cell c2" x="248" y="24" width="10" height="16" rx="2"/>
-  <rect class="cell c3" x="264" y="24" width="10" height="16" rx="2"/>
-  <rect class="cell c4" x="280" y="24" width="10" height="16" rx="2"/>
+  <rect class="cell c1" x="206" y="24" width="10" height="16" rx="2"/>
+  <rect class="cell c2" x="222" y="24" width="10" height="16" rx="2"/>
+  <rect class="cell c3" x="238" y="24" width="10" height="16" rx="2"/>
+  <rect class="cell c4" x="254" y="24" width="10" height="16" rx="2"/>
 
-  <text id="line" x="314" y="37">keep what holds, revise what doesn't.</text>
+  <text id="line" x="284" y="37">keep what holds, revise what doesn't.</text>
 
   <g class="nudge"><text id="go" x="770" y="37" text-anchor="end">read →</text></g>
 </svg>
